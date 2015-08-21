@@ -1,0 +1,5 @@
+alert("me");
+$("#post_<%= @post_id %>").fadeOut(500, function(){
+	alert('me');
+	$(this).remove();
+})
